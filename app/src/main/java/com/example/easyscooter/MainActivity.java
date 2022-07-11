@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                                 JSONObject global = new JSONObject(response);
                                 JSONObject user_data = global.getJSONObject("user");
 
-                                if (!global.getBoolean("trotinette")){
+                                if (global.optBoolean("trotinette") && !global.getBoolean("trotinette")){
                                     Toast.makeText(MainActivity.this, "Hey, tu n'utilises aucune trotinette en ce moment!", Toast.LENGTH_SHORT).show();
                                 }else {
                                     JSONObject trotinette_data = global.getJSONObject("trotinette");

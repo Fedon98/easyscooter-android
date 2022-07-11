@@ -8,6 +8,10 @@
     android:background="#1E4569"
     tools:context=".MainActivity">
 
+    <Space
+        android:layout_width="4sp"
+        android:layout_height="40sp" />
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

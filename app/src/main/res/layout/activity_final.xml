@@ -8,6 +8,10 @@
     android:background="#1E4569"
     tools:context=".MainActivity">
 
+    <Space
+        android:layout_width="4sp"
+        android:layout_height="40sp" />
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -25,7 +29,7 @@
 
     <Space
         android:layout_width="4sp"
-        android:layout_height="15sp" />
+        android:layout_height="30sp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -60,11 +64,11 @@
             android:layout_height="30sp" />
 
         <Button
-            android:id="@+id/leaveApp_btn"
+            android:id="@+id/website_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFF"
-            android:text="Quitter l'application"
+            android:text="Aller sur notre site"
             android:textColor="#1E4569" />
 
         <Space
@@ -72,12 +76,14 @@
             android:layout_height="30sp" />
 
         <Button
-            android:id="@+id/website_button"
+            android:id="@+id/leaveApp_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFF"
-            android:text="Aller sur notre site"
+            android:text="Quitter l'application"
             android:textColor="#1E4569" />
+
+
 
     </LinearLayout>
 
