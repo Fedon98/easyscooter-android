@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E4569"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--
+        Voir scaleType pour image
+        -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#1E4569"
+            android:src="@drawable/logo" />
+
+    </FrameLayout>
+
+    <Space
+        android:layout_width="4sp"
+        android:layout_height="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:background="#1E4569"
+        android:gravity="center"
+        android:text="Merci de nous avoir informés ! Si un autre problème survient sur une autre de nos trotinettes, n'hésites pas à nous le dire!"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="4sp"
+        android:layout_height="30sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/goBack_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFF"
+            android:text="Je veux modifier mon commentaire"
+            android:textColor="#1E4569" />
+
+        <Space
+            android:layout_width="4sp"
+            android:layout_height="30sp" />
+
+        <Button
+            android:id="@+id/leaveApp_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFF"
+            android:text="Quitter l'application"
+            android:textColor="#1E4569" />
+
+        <Space
+            android:layout_width="4sp"
+            android:layout_height="30sp" />
+
+        <Button
+            android:id="@+id/website_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFF"
+            android:text="Aller sur notre site"
+            android:textColor="#1E4569" />
+
+    </LinearLayout>
+
+</LinearLayout>
