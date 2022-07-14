@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
                     try {
                         RequestQueue file = Volley.newRequestQueue(MainActivity.this);
-                        String URL = "http://192.168.1.12/easyscooter/api_easyscooter/API/login";
+                        String URL = "https://easy-scooter.fr/api_easyscooter/API/login";
                         JSONObject jsonBody = new JSONObject();
                         jsonBody.put("email", email);
                         jsonBody.put("password", pwd);

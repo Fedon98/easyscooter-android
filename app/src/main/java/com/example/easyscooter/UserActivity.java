@@ -59,7 +59,7 @@ public class UserActivity extends AppCompatActivity {
                 if (comment.length() > 0){
                     try {
                         RequestQueue file = Volley.newRequestQueue(UserActivity.this);
-                        String URL = "http://192.168.1.12/easyscooter/api_easyscooter/API/trotinette";
+                        String URL = "https://easy-scooter.fr/api_easyscooter/API/trotinette";
                         JSONObject jsonBody = new JSONObject();
                         jsonBody.put("comment", comment);
                         jsonBody.put("is_functional", 0);
